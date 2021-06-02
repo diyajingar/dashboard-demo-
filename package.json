@@ -3,12 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@syncfusion/ej2-react-schedule": "^19.1.65",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "@themesberg/react-bootstrap": "^1.4.1",
+    "axios": "^0.21.1",
     "react": "^17.0.2",
+    "react-datepicker": "^3.8.0",
     "react-dom": "^17.0.2",
+    "react-onclickoutside": "^6.10.0",
+    "react-paginate": "^7.1.2",
+    "react-pro-sidebar": "^0.6.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "uuid": "^8.3.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -34,5 +48,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
   }
 }
